@@ -1,12 +1,13 @@
 # GIT – GITHUB
+
 ## Comandos básicos do UNIX / WINDOWS
 - Limpar tela – clear / cls
-- Apagar diretório e seus arquivos rm - rf “diretório” (r = recursive e f=force apaga subpastas e arquivos) / rmdir “diretório” /S /Q
+- Apagar diretório e seus arquivos rm -rf “diretório” (r = recursive e f=force apaga subpastas e arquivos) / rmdir “diretório” /S /Q
 - Caminho completo atual – pwd
-- Exibir todos os arquivos incluso ocultos – ls - a
+- Exibir todos os arquivos incluso ocultos – ls -a
 ### Informações:
-Utiliza o SHA1 como encriptação – 40 caracteres 
-##Objetos básicos
+- Utiliza o SHA1 como encriptação – 40 caracteres 
+## Objetos básicos
 - Blobs – Metadados do arquivo. Possui tipo, tamanho do arquivo \0  em seguida o conteúdo do arquivo
 - Tree – Armazenam os blobs e outras árvores. Contém os metadados dos blobs.
 - Commit – Combinação de blob e tree. 
